@@ -5,7 +5,7 @@
     "autoCreateDB": true,
     "notiGroup": true,
     "NOTIFICATION": true,
-    "allowInbox": false,
+    "allowInbox": true,
     "autoClean": true,
     "commandDisabled": [
         "sim.js"
@@ -20,8 +20,8 @@
     "PREFIX": ",",
     "ADMINBOT": [
         "61588178231072",
-        "61584194023750",
-        "61582708907708"
+        "",
+        ""
     ],
     "NDH": [
         "61588178231072"
