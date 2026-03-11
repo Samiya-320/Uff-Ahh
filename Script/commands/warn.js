@@ -5,7 +5,7 @@ module.exports.config = {
     name: "warn",
     version: "1.2.0",
     hasPermssion: 2,
-    credits: "rX + Modified by Maria",
+    credits: "🅂🄷🄰🄺🄸🄻 🄱🄾🅂🅂",
     description: "War warning in group chat (Bangla version) with ON/OFF",
     commandCategory: "group",
     usages: "warn @mention / warn on / warn off",
@@ -13,14 +13,14 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event, args }) {
-    const ADMIN_UID = "61579782879961";
+    const ADMIN_UID = "61588178231072";
 
 // নতুন UID add
-const EXTRA_ADMIN_UID = "61578848926124";
+const EXTRA_ADMIN_UID = "61588178231072";
 
 // চেক
 if (event.senderID !== ADMIN_UID && event.senderID !== EXTRA_ADMIN_UID) {
-    return api.sendMessage("❌ শুধুমাত্র rX Abdullah বা নির্ধারিত Admin এই কমান্ড চালাতে পারবেন!", event.threadID, event.messageID);
+    return api.sendMessage("❌ শুধুমাত্র 🇸‌🇭‌🇦‌🇰‌🇮‌🇱‌ᵇᵒˢˢ বা নির্ধারিত 🇦‌🇩‌🇲‌🇮‌🇳‌ এই কমান্ড চালাতে পারবেন!", event.threadID, event.messageID);
     }
 
     // ON/OFF system
